@@ -1,0 +1,81 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(90deg, #318776, #2f8878, #2a8a7f, #238d89, #1d9196, #1c95a3, #2698b0, #369bbb, #469dc5, #559ecb, #5e9fcf, #629fd0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FBF9FF;
+}
+.form-body{
+    padding: 3%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    transform: translateY(40%) translateX(0%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin: 15px;
+}
+input{
+    height: 40px;
+    width: 250px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    margin: 15px;
+    outline: none;
+    color: #FBF9FF;
+}
+
+.button {
+    margin-block: 10%;
+}
+
+.button input{
+    color: #FBF9FF;
+    height: 3rem;
+    width: 8rem;
+    background: #2b828a;
+    border: 0;
+    border-radius: 12px;
+    font-size: 25px;
+    outline: none;
+    margin: 2%;
+    cursor: pointer;
+
+    box-shadow: 0 3.2px 7.2px 0 rgb(0 0 0 / 13%), 0 0.6px 1.8px 0 rgb(0 0 0 / 11%);
+    
+    transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    transition-property: color, background-color, border-color;
+}
+.button input:hover {
+    color: #ffffff;
+    background-color: #306f75;
+    transition-duration: 0.5s;
+    box-shadow: 0 3.2px 7.2px 0 rgb(0 0 0 / 13%), 0 0.6px 1.8px 0 rgb(0 0 0 / 11%);
+}
+
+
+.signup{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.signup a{
+    margin: 5px;
+    color:aqua;
+}
+a:hover{
+    transition: 0.5s;
+    border-bottom: 1px solid aqua;
+}
